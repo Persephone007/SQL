@@ -157,4 +157,4 @@ SELECT
   COUNT(employees.last_name) as last_name_count
 FROM employees
 GROUP BY employees.last_name
-ORDER BY employees.last_name
+ORDER BY employees.last_name DESC
